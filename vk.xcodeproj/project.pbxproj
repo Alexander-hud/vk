@@ -56,15 +56,31 @@
 		79822A5A2831115300160CAA /* vk */ = {
 			isa = PBXGroup;
 			children = (
-				79822A5B2831115300160CAA /* AppDelegate.swift */,
-				79822A5D2831115300160CAA /* SceneDelegate.swift */,
-				79822A5F2831115300160CAA /* ViewController.swift */,
-				79822A612831115300160CAA /* Main.storyboard */,
+				79822A6F283112BE00160CAA /* Application */,
+				79822A70283112D900160CAA /* Main */,
 				79822A642831115400160CAA /* Assets.xcassets */,
 				79822A662831115400160CAA /* LaunchScreen.storyboard */,
 				79822A692831115400160CAA /* Info.plist */,
 			);
 			path = vk;
+			sourceTree = "<group>";
+		};
+		79822A6F283112BE00160CAA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				79822A5B2831115300160CAA /* AppDelegate.swift */,
+				79822A5D2831115300160CAA /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		79822A70283112D900160CAA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				79822A5F2831115300160CAA /* ViewController.swift */,
+				79822A612831115300160CAA /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
