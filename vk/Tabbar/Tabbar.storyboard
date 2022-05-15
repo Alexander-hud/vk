@@ -56,10 +56,10 @@
             </objects>
             <point key="canvasLocation" x="-1752" y="605"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tabbar Controller-->
         <scene sceneID="FuI-Jg-79T">
             <objects>
-                <tabBarController id="yGT-s7-Xfh" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="Tabbar" id="yGT-s7-Xfh" customClass="TabbarController" customModule="vk" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OcB-1g-tvY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7951595128311EFB00A7BA10 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7951595028311EFB00A7BA10 /* Tabbar.storyboard */; };
+		795159532831278B00A7BA10 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795159522831278B00A7BA10 /* TabbarController.swift */; };
 		79822A5C2831115300160CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79822A5B2831115300160CAA /* AppDelegate.swift */; };
 		79822A5E2831115300160CAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79822A5D2831115300160CAA /* SceneDelegate.swift */; };
 		79822A602831115300160CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79822A5F2831115300160CAA /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		7951595028311EFB00A7BA10 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		795159522831278B00A7BA10 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		79822A582831115300160CAA /* vk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79822A5B2831115300160CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79822A5D2831115300160CAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				7951595028311EFB00A7BA10 /* Tabbar.storyboard */,
+				795159522831278B00A7BA10 /* TabbarController.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79822A602831115300160CAA /* ViewController.swift in Sources */,
+				795159532831278B00A7BA10 /* TabbarController.swift in Sources */,
 				79822A5C2831115300160CAA /* AppDelegate.swift in Sources */,
 				79822A5E2831115300160CAA /* SceneDelegate.swift in Sources */,
 			);
